@@ -1,0 +1,54 @@
+@font-face{
+    font-family: cursed;
+    src: url(cursed.ttf);
+}
+body {
+    margin: 0;
+    background: linear-gradient(#064E3B,#D1FAE5) fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.score-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;  
+
+}
+#score-title{
+    color: goldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px; 
+    font-weight: bold;
+
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+#score-home,#score-guest{
+    font-family: cursed;
+    background-color: black;
+    color: #F94F6D;
+    font-size: 90px; 
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-top:10px;
+    border-radius: 5px;
+}
+.score-btn-wrapper{
+    display: inline;
+    text-align: center;
+    font-family: cursed;
+    justify-content: center;
+}
+.score-btn{
+    color: #9AABD8;
+    font-family: cursed;
+    padding: 10px;
+    border: 1px solid #E11D48;
+    border-radius: 4px;
+}
